@@ -1,0 +1,32 @@
+header {
+    @apply border-b-[1px] border-solid border-gray-200 w-full relative;
+
+    .navbar {
+        @apply h-[80px] flex justify-evenly px-[50px];
+        
+        .navbar-nav {
+            @apply flex items-center;
+
+            li.nav-item {
+                @apply mx-4;
+
+                &.active {
+                    .nav-link {
+                        @apply text-indigo-500;
+                    }
+                }
+
+                a {
+                    &.nav-link {
+                        @apply text-base text-gray-900 pl-[1rem] pr-[1rem];
+
+                        &:hover {
+                            @apply underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
