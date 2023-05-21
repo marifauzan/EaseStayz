@@ -2,7 +2,7 @@ header {
     @apply border-b-[1px] border-solid border-gray-200 w-full relative;
 
     .navbar {
-        @apply h-[80px] flex justify-evenly px-[50px];
+        @apply h-[80px] flex justify-evenly container mx-auto;
         
         .navbar-nav {
             @apply flex items-center;
